@@ -1,0 +1,38 @@
+/*---------------------------- external stylesheet--------------------------------*/
+
+   body{
+        margin: 0px;
+        padding:0px;
+        background-color:rgb(221, 243, 243);
+    }
+    .header{
+        border:1px solid gray;
+        width: 100%;
+        height: 100px;
+
+    }
+    .footer{
+        border:1px solid black;
+        width: 100%;
+        height: 100px;
+    }
+    .leftdiv{
+        border: 1px solid green;
+        width: 49%;
+        float:left;
+        height: 100%;
+        text-align: center;
+    }
+    .rightdiv{
+        border: 1px solid green;
+        width: 49%;
+        float:right;
+        height: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(12, 18, 56);
+    
+    }

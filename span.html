@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>span Tag</title>
+    <style>
+        span:nth-child(1){
+            color: red;
+        }
+        span:nth-child(2){
+            color: black;
+        }
+        span:nth-child(3){
+            color: green;
+        }
+        span:nth-child(4){
+            color: yellow;
+        }
+        span:nth-child(5){
+            color: blue;
+        }
+        span:nth-child(6){
+            color: cyan;
+        }
+        span:nth-child(7){
+            color: chocolate;
+        }
+        span:nth-child(8){
+            color: darkblue;
+        }
+        span:nth-child(9){
+            color: green;
+        }
+        span:nth-child(10){
+            color: darkblue;
+        }
+        span:nth-child(11){
+            color: darkcyan;
+        }
+        span:nth-child(12){
+            color: darkgoldenrod;
+        }
+        span:nth-child(13){
+            color: darkred;
+        }
+        span:nth-child(14){
+            color: darkkhaki;
+        }
+        span:nth-child(15){
+            color: darkgreen;
+        }
+        span:nth-child(16){
+            color: darkmagenta;
+        }
+        span:nth-child(17){
+            color: darkturquoise;
+        }
+        span{
+            width: 200px;
+            height: 200px;
+
+        }
+        span:hover{
+            width: 200px;
+            height: 200px;
+            border: 2px soild black;
+            border-radius: 30px;
+            box-shadow: 0 0 15px green;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: flex;
+            position: relative;
+            left: 200px;
+            top: 400px;
+            margin: 100px;
+            padding: 20px;
+            animation: span;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            transition: 1s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            @keyframes span {
+                25%{
+                    transform:translate(300px) rotate(300px)
+                    rgb(10px,20px,30px)
+                }
+               50%{
+                    transform:translate(300px) rotate(-300px)
+                    rgb(10px,20px,30px)
+                    
+                }
+                75%{
+                    transform:translate(-300px) rotate(300px)
+                    rgb(10px,20px,30px)
+                }
+               100%{
+                    transform:translate(300px) rotate(-300px)
+                    rgb(10px,20px,30px)
+                }
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+   <span>A</span><span>1</span><span>N</span><span>9</span><span>J</span><span>9</span><span>I</span><span>8</span><br>
+   <span>K</span><span>I</span><span>T</span><span>T</span><span>U</span><br>
+   <span>R</span><span>A</span><span>M</span> <span>I</span><br>
+</body>
+</html>
